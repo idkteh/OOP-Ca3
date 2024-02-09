@@ -3,8 +3,8 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 import java.util.Stack;
 /**
- *  Name:
- *  Class Group:
+ *  Name: Ida Tehlarova
+ *  Class Group: GD2b
  */
 public class CA3_Question4 {
 
@@ -13,6 +13,19 @@ public class CA3_Question4 {
      */
     public static boolean validate(String filename) throws FileNotFoundException
     {
+        Scanner fin = new Scanner(new File("\"C:\\Users\\idate\\OneDrive\\Dokumenty\\tags_valid.txt\""));
+        Stack<Character> myStack = new Stack<>();
+
+        while (fin.hasNextLine()) {
+            Scanner in = new Scanner(fin.nextLine());
+            while (in.hasNext()) {
+
+            }
+        }
+
+
+
+
         return false;
     }
 
