@@ -3,8 +3,8 @@ import java.util.LinkedList;
 import java.util.Scanner;
 
 /**
- *  Name:
- *  Class Group:
+ *  Name: Ida Tehlarova
+ *  Class Group: GD2b
  */
 
 public class CA3_Question5

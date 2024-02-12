@@ -10,10 +10,21 @@ public class CA3_Question6
     public static class Block {
         private int shares;
         private double price;
+        private String symbol;
 
         public Block(int shares, double price) {
             this.shares = shares;
             this.price = price;
+        }
+
+        public Block(int shares, double price, String symbol) {
+            this.shares = shares;
+            this.price = price;
+            this.symbol = symbol;
+        }
+
+        public String getSymbol() {
+            return symbol;
         }
 
         public int getShares() {
